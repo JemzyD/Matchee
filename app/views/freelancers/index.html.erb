@@ -15,15 +15,14 @@
       <!-- Projects Row -->
       <div class="row">
         <% @freelancers.each do |freelancer| %>
-          <div class="col-md-4 portfolio-item">
+          <div class="col-md-3 portfolio-item">
             <%=link_to profile_path(freelancer.id) do %>
             <div>
               <%if !freelancer.picture%>
-              <%= cl_image_tag('https://www.soMundstream.tv/assets/default_profile-e08597880fc222202f22984a4f1966a29b108e856a3fb935072bfbbc302a4b73.png')%>
+              <%= image_tag("default.png", alt: "logo", style:"height:250px;width:250px")%>
               <% else %>
               <%= cl_image_tag(freelancer.picture,
-                  :width => 300, :height => 300,
-                  :crop => :crop, :gravity => :face, :radius => 'max')
+                  :width => 250, :height => 250,)
                   %>
               <% end %>
 

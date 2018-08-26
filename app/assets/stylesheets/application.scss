@@ -59,8 +59,33 @@
   }
 }
 
+.input-group-lg {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .navbar {
+  height: 60px;
   margin-bottom: 0;
+  background-color: #563d7c;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 18px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 60px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding-top: 18px;
+  color: #cbbde2;
+  font-size: 15px;
+}
+
+.navbar-default .navbar-brand {
+  color: #cbbde2
 }
 
 #map {
