@@ -4,7 +4,7 @@ class EmailConfirmationsController < ApplicationController
 
     if @user
       @user.email_activate
-      flash[:success] = "Welcome to the Handy. Your email has been confirmed. \n Please Login to continue."
+      flash[:success] = "Welcome to the Matchee. Your email has been confirmed. \n Please Login to continue."
       redirect_to login_url
     else
       flash[:error] = "Sorry, User does not exist!"
