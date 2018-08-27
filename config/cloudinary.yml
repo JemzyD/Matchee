@@ -1,0 +1,21 @@
+development:
+  cloud_name: dssz6awpk
+  api_key: '993131227115598'
+  api_secret: W1TTYEVW57gKCJzCunAnrAliqoI
+  enhance_image_tag: true
+  static_image_support: false
+
+
+# production:
+#   cloud_name: dssz6awpk
+#   api_key: <%= ENV["CLOUDINARY_API_KEY"] %>
+#   api_secret: <%= ENV["CLOUDINARY_API_SECRET"] %>
+#   enhance_image_tag: true
+#   static_image_support: true
+
+# test:
+#   cloud_name: dssz6awpk
+#   api_key: '993131227115598'
+#   api_secret: W1TTYEVW57gKCJzCunAnrAliqoI
+#   enhance_image_tag: true
+#   static_image_support: false
