@@ -1,0 +1,52 @@
+I"ñ(function() {
+  App.enquiry = App.cable.subscriptions.create("EnquiryChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {
+      var count, element, elm, k, ref, results, v;
+      if (data['message']) {
+
+      }
+      if (data['sender'] === 1) {
+        elm = '<div class="text-right"> <div class="sender">' + data['message'] + '</div></div>';
+      }
+      if (data['sender'] === 0) {
+        elm = '<div class="text-left"> <div class="recipient">' + data['message'] + '</div></div>';
+      }
+      $("#messages").find(".messages-" + data['enquiry_id']).append(elm);
+      $('.notification').attr('style', 'color: red');
+      count = $('#notification-content li').find('<a href="/enquiries/' + data['enquiry_id'] + '/edit"> Enquiry' + data['enquiry_id'] + '</a>').length;
+      if (count === 0) {
+        $('#notification-content').append('<li></li>').html('<a href="/enquiries/' + data['enquiry_id'] + '/edit"> Enquiry' + data['enquiry_id'] + '</a>');
+      }
+      element = document.getElementById("messages");
+      element.scrollTop = element.scrollHeight;
+      if (data['changes']) {
+
+      }
+      ref = data['changes'];
+      results = [];
+      for (k in ref) {
+        v = ref[k];
+        results.push($(".enquiry-" + data['enquiry_id'] + "-" + k).attr('value', v));
+      }
+      return results;
+    },
+    speak: function(message) {
+      return this.perform('speak', {
+        message: message
+      });
+    }
+  });
+
+  $(document).on('keypress', '.new_message', function(event) {
+    if (event.keyCode === 13) {
+      event.target.values = $(this).serializeArray();
+      App.enquiry.speak(event.target.values);
+      event.target.value = ' ';
+      return event.preventDefault();
+    }
+  });
+
+}).call(this);
+:ET

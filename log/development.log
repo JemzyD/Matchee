@@ -1,0 +1,1142 @@
+Started GET "/" for 127.0.0.1 at 2018-08-28 04:21:16 +0800
+  
+Gem::LoadError (Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.7) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.7) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.0.7) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.0.7) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.7) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.7) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.7) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (224.5ms)
+Started GET "/" for 127.0.0.1 at 2018-08-28 04:23:01 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (7.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FreelancersController#index as HTML
+  Rendering freelancers/index.html.erb within layouts/application
+  Rendered partials/_search.html.erb (4.8ms)
+  [1m[36mFreelancer Load (1.8ms)[0m  [1m[34mSELECT "freelancers".* FROM "freelancers"[0m
+  Rendered freelancers/index.html.erb within layouts/application (73.2ms)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 15.3ms)
+
+
+  
+ActionView::Template::Error (Must supply cloud_name in tag or in configuration):
+    21:               <%if !freelancer.picture%>
+    22:               <%= image_tag("default.png", alt: "logo", style:"height:250px;width:250px")%>
+    23:               <% else %>
+    24:               <%= cl_image_tag(freelancer.picture,
+    25:                   :width => 250, :height => 250,)
+    26:                   %>
+    27:               <% end %>
+  
+app/views/freelancers/index.html.erb:24:in `block (2 levels) in _app_views_freelancers_index_html_erb__527748580342106751_70348885836640'
+app/views/freelancers/index.html.erb:19:in `block in _app_views_freelancers_index_html_erb__527748580342106751_70348885836640'
+app/views/freelancers/index.html.erb:17:in `_app_views_freelancers_index_html_erb__527748580342106751_70348885836640'
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (199.3ms)
+Started GET "/" for 127.0.0.1 at 2018-08-28 04:43:57 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FreelancersController#index as HTML
+  Rendering freelancers/index.html.erb within layouts/application
+  Rendered partials/_search.html.erb (5.5ms)
+  [1m[36mFreelancer Load (1.3ms)[0m  [1m[34mSELECT "freelancers".* FROM "freelancers"[0m
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (13.7ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT AVG("ratings"."value") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("ratings"."cleanliness") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  Rendered partials/_form_for_ratings.html.erb (118.5ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 2]]
+  Rendered partials/_form_for_ratings.html.erb (0.9ms)
+  Rendered freelancers/partials/_map.html.erb (1.1ms)
+  Rendered freelancers/index.html.erb within layouts/application (296.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  Rendered partials/_navbar.html.erb (9.8ms)
+  Rendered partials/_flash.html.erb (0.9ms)
+Completed 200 OK in 13213ms (Views: 13119.5ms | ActiveRecord: 43.4ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:11 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:11 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:17 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:18 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:18 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:26 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:27 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:27 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:33 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:33 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:33 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:41 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:42 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:42 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:50 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 04:44:51 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 04:44:51 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2018-08-28 07:44:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (12.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FreelancersController#index as HTML
+  Rendering freelancers/index.html.erb within layouts/application
+  Rendered partials/_search.html.erb (5.6ms)
+  [1m[36mFreelancer Load (20.1ms)[0m  [1m[34mSELECT "freelancers".* FROM "freelancers"[0m
+  [1m[36mUser Load (7.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (8.9ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."value") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."cleanliness") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  Rendered partials/_form_for_ratings.html.erb (119.4ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 2]]
+  Rendered partials/_form_for_ratings.html.erb (1.0ms)
+  Rendered freelancers/partials/_map.html.erb (1.6ms)
+  Rendered freelancers/index.html.erb within layouts/application (315.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  Rendered partials/_navbar.html.erb (11.2ms)
+  Rendered partials/_flash.html.erb (0.9ms)
+Completed 200 OK in 1052ms (Views: 939.3ms | ActiveRecord: 63.8ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:44:46 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:44:46 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:44:52 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:44:53 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:44:53 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:01 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:02 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:02 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:08 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:09 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:09 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:16 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:17 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:17 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:25 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:26 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:26 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:35 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:35 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:35 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:45 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:46 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:46 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:56 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:45:57 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:45:57 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:08 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:46:08 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:08 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:20 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:46:20 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:20 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:32 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:46:33 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:33 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:45 +0800
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:46:46 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:46:46 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2018-08-28 07:53:09 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FreelancersController#index as HTML
+  Rendering freelancers/index.html.erb within layouts/application
+  Rendered partials/_search.html.erb (17.9ms)
+  [1m[36mFreelancer Load (3.0ms)[0m  [1m[34mSELECT "freelancers".* FROM "freelancers"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT AVG("ratings"."value") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."cleanliness") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 1]]
+  Rendered partials/_form_for_ratings.html.erb (115.0ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT AVG("ratings"."professionalism") FROM "ratings" WHERE "ratings"."freelancer_id" = $1[0m  [["freelancer_id", 2]]
+  Rendered partials/_form_for_ratings.html.erb (1.2ms)
+  Rendered freelancers/partials/_map.html.erb (1.0ms)
+  Rendered freelancers/index.html.erb within layouts/application (279.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  Rendered partials/_navbar.html.erb (9.6ms)
+  Rendered partials/_flash.html.erb (0.9ms)
+Completed 200 OK in 910ms (Views: 827.7ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-08-28 07:53:11 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:53:11 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+There was an exception - RuntimeError(User needs to be authenticated)
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:14:in `find_verified_user'
+/Users/jemimalim/gaprojects/Matchee/app/channels/application_cable/connection.rb:6:in `connect'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/base.rb:167:in `handle_open'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:58:in `block in invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:39:in `block in work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:126:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `block in with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `block in tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/connection/tagged_logger_proxy.rb:22:in `tag'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker/active_record_connection_management.rb:14:in `with_database_connections'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:382:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:448:in `block (2 levels) in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:286:in `block (2 levels) in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:60:in `block (4 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/execution_wrapper.rb:85:in `wrap'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/engine.rb:55:in `block (3 levels) in <class:Engine>'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `instance_exec'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:391:in `block in make_lambda'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:285:in `block in halting'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:447:in `block in around'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:455:in `call'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:750:in `_run_work_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/activesupport-5.0.7/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:38:in `work'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:56:in `invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/action_cable/server/worker.rb:51:in `block in async_invoke'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/jemimalim/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-28 07:53:14 +0800
