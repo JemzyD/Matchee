@@ -35,7 +35,7 @@
 }
 
 .rating > input:checked ~ label {
-    color: #f70;
+    color: #563d7c;
 }
 
 .rating:not(:checked) > label:hover,
@@ -91,7 +91,7 @@
 }
 
 .rating_read_only > input:checked ~ label {
-    color: #f70;
+    color: #563d7c;
 }
 
 .rating_read_only > label:active {
@@ -111,7 +111,7 @@
 }
 
 .signup-heading {
-  padding: 10px 0 0 0;
+  padding: 10px 300px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;

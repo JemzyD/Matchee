@@ -7,8 +7,7 @@
         <%= cl_image_tag('https://www.soundstream.tv/assets/default_profile-e08597880fc222202f22984a4f1966a29b108e856a3fb935072bfbbc302a4b73.png')%>
         <% else %>
         <%= cl_image_tag(@freelancer.picture,
-            :width => 400, :height => 400,
-            :crop => :fill, :gravity => :face, :radius => 'max', :default_image => "avatar.png")
+            :width => 400, :height => 400, :default_image => "avatar.png")
             %>
             <% end %>
       </div>
